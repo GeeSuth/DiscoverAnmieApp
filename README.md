@@ -1,16 +1,16 @@
-# flutter_anmie_discover
 
-A new Flutter project.
+Flutter Application For Discover Anime Movie by image
 
-## Getting Started
+Used: trace.moe API
 
-This project is a starting point for a Flutter application.
+Video :
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+https://user-images.githubusercontent.com/10328974/133139005-d0e330b3-f722-4fe4-901f-41b8a777ed1e.mp4
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Thank you!
+
+
+
+
