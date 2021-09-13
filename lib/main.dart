@@ -135,12 +135,7 @@ class MyCustomForm extends StatelessWidget {
     );
   }
 
-  Future<List<dynamic>> getAnmieByImage(File file) async {
-    var base64Image = base64Encode(snapshot.data.readAsBytesSync());
-    String url = "https://api.trace.moe/search";
-    var result = await http.post(url, body: file);
-    return json.decode(result.body)['result'];
-  }
+  Future<List<dynamic>> getAnmieByImage(File file) async {}
 
   _imgFromGallery() async {
     var image = await ImagePicker.pickImage(
@@ -149,7 +144,7 @@ class MyCustomForm extends StatelessWidget {
     if (image == null) {
       print('nulled value');
     } else {
-      print(await getAnmieByImage(image));
+      //print(await getAnmieByImage(image));
     }
   }
 
